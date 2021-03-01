@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir essas imagens em dispoisitivos diferentes ou simplesmente aumente o zoom do seu navegador.</p>
+
+<!--
+    É importante que exista uma ordem entre os <source> (como está no código abaixo) e nessa nossa
+os itens mais acima sejam os menores tamanhos para max-width e que os seguintes
+sejam maiores, de forma crescente. O último item dentro de <picture> deve ser a
+imagem padrão. 
+-->
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+</body>
+</html>
