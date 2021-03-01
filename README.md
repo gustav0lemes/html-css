@@ -1,2 +1,2 @@
 # html-css
- exercícios e desafios iniciais relacionados a linguagem html e css
+ Exercícios e desafios relaciondos a linguagem HTML e CSS.
