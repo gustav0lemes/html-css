@@ -1,0 +1,29 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #00a6fb, #0582ca);
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #006494;
+  width: 600px;
+  padding: 15px;
+  margin: auto; /* Aqui ele centraliza o elemento independente da tela */
+}
+
+h1 {
+  text-align: center;
+  color: #003554;
+}
+
+h2 {
+  color: #00a6fb;
+}
+
+p {
+  text-align: justify;
+}
