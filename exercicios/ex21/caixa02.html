@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+      margin: 0px;
+    }
+
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 6px;
+    }
+
+    nav {
+      background-color: rgb(236, 234, 234);
+      padding: 10px;
+      box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding-left: 20px;
+    }
+
+    nav>a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+
+    nav>a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 6px;
+    }
+
+    article {
+      background-color: lightgrey;
+      padding: 5px;
+    }
+
+    article>aside {
+      background-color: rgb(189, 181, 181);
+    }
+
+    footer {
+      background-color: black;
+      color: rgb(97, 79, 79);
+      text-align: center;
+      padding: 15px;
+      margin: 0px;
+    }
+
+    footer>p {
+      margin: 0px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <a href="http://">Página Inicial</a>
+      <a href="http://">Notícias</a>
+      <a href="http://">Vídeos</a>
+      <a href="http://">Contato</a>
+      <a href="http://">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="assuntos">
+      <p>Esporte, política e tecnologia</p>
+    </section>
+
+    <section id="noticias">
+      <article>
+        <h2>Notícia sobre Tecnologia</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, placeat maxime vitae laboriosam culpa reiciendis et. Facilis impedit modi odit beatae harum numquam, soluta magni obcaecati. Accusantium non aliquam a.</p>
+        <aside>
+          <p>Artigo escrito por José da Silva</p>
+        </aside>
+      </article>
+
+      <article>
+
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Luiz Gustavo</p>
+  </footer>
+</body>
+
+</html>
