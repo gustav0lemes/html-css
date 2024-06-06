@@ -75,6 +75,7 @@ section {
   background-color: #f1ecec;
   padding: 10px;
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 section > h1 {
@@ -85,4 +86,10 @@ section > h1 {
   font-weight: bold;
   padding: 10px;
   border-radius: 8px;
+}
+
+#video {
+  background-color: #1a855a;
+  text-align: center;
+  padding: 10px;
 }
